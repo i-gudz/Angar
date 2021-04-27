@@ -1,0 +1,2844 @@
+.about_us #myModal1 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 30%;
+    top: 0;
+    width: 750px;
+    height: 100%;
+    overflow: auto
+}
+
+.about_us #myModal1 .modal_bg {
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #b38f5e;
+    opacity: .5
+}
+
+.about_us #myModal1 .modal-content {
+    position: relative;
+    margin: 10% auto;
+    -webkit-animation-name: animatetop;
+    animation-name: animatetop;
+    -webkit-animation-duration: .4s;
+    animation-duration: .4s
+}
+
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+.about_us #myModal1 .modal-content {
+    height: 67%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-size: cover;
+    background-image: url(../img/order_popup_bg.png);
+    position: relative
+}
+
+.about_us .main .description a input {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    background-color: #b36417;
+    border: none;
+    outline: 0
+}
+
+.about_us #myModal1 .close {
+    position: absolute;
+    top: -20px;
+    right: 22px;
+    -webkit-clip-path: polygon(0 17%, 100% 0, 100% 83%, 0 100%);
+    clip-path: polygon(0 17%, 100% 0, 100% 83%, 0 100%);
+    width: 40px;
+    height: 60px;
+    background-color: #474748;
+    cursor: pointer
+}
+
+.about_us #myModal1 .close #hide_popup {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer
+}
+
+.about_us #myModal1 .close .close_x {
+    position: relative
+}
+
+.about_us #myModal1 .close .close_x div {
+    position: absolute;
+    top: 27px;
+    left: 8px;
+    width: 20px;
+    height: 4px;
+    background-color: #fff;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+
+.about_us #myModal1 .close .close_x div:last-child {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+
+.about_us #myModal1 .title {
+    width: 97%;
+    height: 80px;
+    background-color: #000;
+    -webkit-clip-path: polygon(0 0, 98% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 98% 0, 100% 100%, 0 100%);
+    font-family: Merriweather_Black;
+    font-size: 26px;
+    color: #fff;
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.about_us #myModal1 form {
+    width: 80%;
+    height: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 30px 5%
+}
+
+.about_us #myModal1 form .desc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.about_us #myModal1 form .desc span {
+    font-family: Merriweather_Black;
+    font-size: 20px;
+    color: #e7e7e7
+}
+
+.about_us #myModal1 form .desc div {
+    font-family: Merriweather_Black;
+    font-size: 18px;
+    color: #e7e7e7;
+    opacity: .4;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+.about_us #myModal1 form .desc div:hover {
+    cursor: pointer;
+    opacity: .7;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+.about_us #myModal1 form .phone {
+    display: none
+}
+
+.about_us #myModal1 form .email,
+.about_us #myModal1 form .phone {
+    margin-bottom: 35px
+}
+
+.about_us #myModal1 form .email input,
+.about_us #myModal1 form .phone input {
+    width: 100%;
+    height: 48px;
+    background-color: #555;
+    border: none;
+    font-family: PTSansCaption_Bold;
+    font-size: 20px;
+    color: #e4e4e4;
+    opacity: .4;
+    padding-left: 18px;
+    outline: 0;
+    margin-top: 20px
+}
+
+.about_us #myModal1 form span {
+    font-family: Merriweather_Black;
+    font-size: 20px;
+    color: #e7e7e7
+}
+
+.about_us #myModal1 form textarea {
+    width: 100%;
+    height: 171px;
+    background-color: #555;
+    border: none;
+    font-family: PTSansCaption_Bold;
+    font-size: 20px;
+    color: #fff;
+    opacity: .4;
+    padding-left: 18px;
+    padding-top: 17px;
+    outline: 0;
+    margin-top: 20px
+}
+
+.about_us #myModal1 form button {
+    width: 100%;
+    height: 59px;
+    -webkit-clip-path: polygon(0 0, 97% 0, 100% 25%, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 97% 0, 100% 25%, 100% 100%, 0 100%);
+    background-color: #de842c;
+    border: 1px solid #ffca96;
+    font-family: Merriweather_Black;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    outline: 0;
+    cursor: pointer;
+    margin-top: 40px
+}
+
+.about_us #myModal2 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 30%;
+    top: 0;
+    width: 740px;
+    height: 100%;
+    overflow: auto
+}
+
+.about_us #myModal2 .modal_bg {
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #b38f5e;
+    opacity: .5
+}
+
+.about_us #myModal2 .modal-content {
+    position: relative;
+    margin: 10% auto;
+    -webkit-animation-name: animatetop;
+    animation-name: animatetop;
+    -webkit-animation-duration: .4s;
+    animation-duration: .4s
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+.about_us #myModal2 .modal-content {
+    width: 100%;
+    height: 41%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-size: cover;
+    background-image: url(../img/callback_popup_bg.png);
+    position: relative
+}
+
+.about_us #myModal2 .close {
+    position: absolute;
+    top: -20px;
+    right: 10px;
+    -webkit-clip-path: polygon(0 17%, 100% 0, 100% 83%, 0 100%);
+    clip-path: polygon(0 17%, 100% 0, 100% 83%, 0 100%);
+    width: 40px;
+    height: 60px;
+    background-color: #474748
+}
+
+.about_us #myModal2 .close #hide_popup {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer
+}
+
+.about_us #myModal2 .close .close_x {
+    position: relative
+}
+
+.about_us #myModal2 .close .close_x div {
+    position: absolute;
+    top: 27px;
+    left: 8px;
+    width: 20px;
+    height: 4px;
+    background-color: #fff;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+
+.about_us #myModal2 .close .close_x div:last-child {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+
+.about_us #myModal2 .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: 60px
+}
+
+.about_us #myModal2 .social img {
+    width: 46px;
+    height: 46px;
+    margin-right: 25px
+}
+
+.about_us #myModal2 .social span {
+    font-family: PTSansCaption_Regular;
+    font-size: 20px;
+    color: #fff;
+    opacity: .5
+}
+
+.about_us #myModal2 form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-top: 80px;
+    margin-left: 60px
+}
+
+.about_us #myModal2 form span {
+    font-family: Merriweather_Black;
+    font-size: 20px;
+    color: #e7e7e7
+}
+
+.about_us #myModal2 form input {
+    width: 80%;
+    height: 48px;
+    background-color: #555;
+    border: none;
+    font-family: PTSansCaption_Bold;
+    font-size: 20px;
+    color: #e4e4e4;
+    opacity: .4;
+    padding-left: 18px;
+    outline: 0;
+    margin: 20px 0 25px 0
+}
+
+.about_us #myModal2 form button {
+    width: 80%;
+    height: 59px;
+    -webkit-clip-path: polygon(0 0, 97% 0, 100% 25%, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 97% 0, 100% 25%, 100% 100%, 0 100%);
+    background-color: #de842c;
+    border: 1px solid #ffca96;
+    font-family: Merriweather_Black;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    outline: 0;
+    cursor: pointer;
+    margin-bottom: 30px
+}
+
+.about_us #myModal3 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 30%;
+    top: 0;
+    width: 580px;
+    height: 100%;
+    overflow: auto
+}
+
+.about_us #myModal3 .modal_bg {
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #b38f5e;
+    opacity: .5
+}
+
+.about_us #myModal3 .modal-content {
+    position: relative;
+    margin: 10% auto;
+    -webkit-animation-name: animatetop;
+    animation-name: animatetop;
+    -webkit-animation-duration: .4s;
+    animation-duration: .4s;
+    width: 100%;
+    height: 25%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-size: cover;
+    background-image: url(../img/success_callback_popup_bg.png);
+    position: relative
+}
+
+.about_us #myModal3 .close {
+    position: absolute;
+    top: 0;
+    right: 13px;
+    -webkit-clip-path: polygon(0 17%, 100% 0, 100% 83%, 0 100%);
+    clip-path: polygon(0 17%, 100% 0, 100% 83%, 0 100%);
+    width: 40px;
+    height: 60px;
+    background-color: #474748;
+    cursor: pointer
+}
+
+.about_us #myModal3 .close #hide_popup {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer
+}
+
+.about_us #myModal3 .close .close_x {
+    position: relative
+}
+
+.about_us #myModal3 .close .close_x div {
+    position: absolute;
+    top: 27px;
+    left: 8px;
+    width: 20px;
+    height: 4px;
+    background-color: #fff;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+
+.about_us #myModal3 .close .close_x div:last-child {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+
+.about_us #myModal3 .description {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 50px 0 0 60px
+}
+
+.about_us #myModal3 .description .h4 {
+    font-family: Merriweather_Black;
+    font-size: 20px;
+    color: #e7e7e7;
+    text-transform: uppercase
+}
+
+.about_us #myModal3 .description div {
+    font-family: PTSansCaption_Bold;
+    font-size: 20px;
+    color: #c8c8c8;
+    margin-top: 30px
+}
+
+.catalog #myModal4,
+.catalog #order_cob,
+.catalog #order_crane,
+.catalog #order_hangar,
+.catalog #order_roof {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 30%;
+    top: 100vh;
+    width: 740px;
+    height: 100%;
+    overflow: auto
+}
+
+.feedback #callback_feedback {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 30%;
+    top: 400vh;
+    width: 740px;
+    height: 100%;
+    overflow: auto
+}
+
+.gallery #callback_gallery {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 30%;
+    top: 300vh;
+    width: 740px;
+    height: 100%;
+    overflow: auto
+}
+
+.portfolio #callback_portfolio {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 30%;
+    top: 200vh;
+    width: 740px;
+    height: 100%;
+    overflow: auto
+}
+
+.catalog #myModal4 .modal_bg,
+.catalog #order_cob .modal_bg,
+.catalog #order_crane .modal_bg,
+.catalog #order_hangar .modal_bg,
+.catalog #order_roof .modal_bg {
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    top: 100vh;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #b38f5e;
+    opacity: .5
+}
+
+.feedback #callback_feedback .modal_bg {
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    top: 400vh;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #b38f5e;
+    opacity: .5
+}
+
+.gallery #callback_gallery .modal_bg {
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    top: 300vh;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #b38f5e;
+    opacity: .5
+}
+
+.portfolio #callback_portfolio .modal_bg {
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    top: 200vh;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #b38f5e;
+    opacity: .5
+}
+
+.catalog #myModal4 .modal-content,
+.catalog #order_cob .modal-content,
+.catalog #order_crane .modal-content,
+.catalog #order_hangar .modal-content,
+.catalog #order_roof .modal-content,
+.feedback #callback_feedback .modal-content,
+.gallery #callback_gallery .modal-content,
+.portfolio #callback_portfolio .modal-content {
+    position: relative;
+    margin: 10% auto;
+    -webkit-animation-name: animatetop;
+    animation-name: animatetop;
+    -webkit-animation-duration: .4s;
+    animation-duration: .4s;
+    width: 100%;
+    height: 41%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-size: cover;
+    background-image: url(../img/callback_popup_bg.png);
+    position: relative
+}
+
+.catalog #myModal4 .close,
+.catalog #order_cob .close,
+.catalog #order_crane .close,
+.catalog #order_hangar .close,
+.catalog #order_roof .close,
+.feedback #callback_feedback .close,
+.gallery #callback_gallery .close,
+.portfolio #callback_portfolio .close {
+    position: absolute;
+    top: -20px;
+    right: 10px;
+    -webkit-clip-path: polygon(0 17%, 100% 0, 100% 83%, 0 100%);
+    clip-path: polygon(0 17%, 100% 0, 100% 83%, 0 100%);
+    width: 40px;
+    height: 60px;
+    background-color: #474748
+}
+
+.catalog #myModal4 .close #hide_popup,
+.catalog #order_cob .close #hide_popup,
+.catalog #order_crane .close #hide_popup,
+.catalog #order_hangar .close #hide_popup,
+.catalog #order_roof .close #hide_popup,
+.feedback #callback_feedback .close #hide_popup,
+.gallery #callback_gallery .close #hide_popup,
+.portfolio #callback_portfolio .close #hide_popup {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer
+}
+
+.catalog #myModal4 .close .close_x,
+.catalog #order_cob .close .close_x,
+.catalog #order_crane .close .close_x,
+.catalog #order_hangar .close .close_x,
+.catalog #order_roof .close .close_x,
+.feedback #callback_feedback .close .close_x,
+.gallery #callback_gallery .close .close_x,
+.portfolio #callback_portfolio .close .close_x {
+    position: relative
+}
+
+.catalog #myModal4 .close .close_x div,
+.catalog #order_cob .close .close_x div,
+.catalog #order_crane .close .close_x div,
+.catalog #order_hangar .close .close_x div,
+.catalog #order_roof .close .close_x div,
+.feedback #callback_feedback .close .close_x div,
+.gallery #callback_gallery .close .close_x div,
+.portfolio #callback_portfolio .close .close_x div {
+    position: absolute;
+    top: 27px;
+    left: 8px;
+    width: 20px;
+    height: 4px;
+    background-color: #fff;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+
+.catalog #myModal4 .close .close_x div:last-child,
+.catalog #order_cob .close .close_x div:last-child,
+.catalog #order_crane .close .close_x div:last-child,
+.catalog #order_hangar .close .close_x div:last-child,
+.catalog #order_roof .close .close_x div:last-child,
+.feedback #callback_feedback .close .close_x div:last-child,
+.gallery #callback_gallery .close .close_x div:last-child,
+.portfolio #callback_portfolio .close .close_x div:last-child {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+
+.catalog #myModal4 .social,
+.catalog #order_cob .social,
+.catalog #order_crane .social,
+.catalog #order_hangar .social,
+.catalog #order_roof .social,
+.feedback #callback_feedback .social,
+.gallery #callback_gallery .social,
+.portfolio #callback_portfolio .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: 60px
+}
+
+.catalog #myModal4 .social img,
+.catalog #order_cob .social img,
+.catalog #order_crane .social img,
+.catalog #order_hangar .social img,
+.catalog #order_roof .social img,
+.feedback #callback_feedback .social img,
+.gallery #callback_gallery .social img,
+.portfolio #callback_portfolio .social img {
+    width: 46px;
+    height: 46px;
+    margin-right: 25px
+}
+
+.catalog #myModal4 .social span,
+.catalog #order_cob .social span,
+.catalog #order_crane .social span,
+.catalog #order_hangar .social span,
+.catalog #order_roof .social span,
+.feedback #callback_feedback .social span,
+.gallery #callback_gallery .social span,
+.portfolio #callback_portfolio .social span {
+    font-family: PTSansCaption_Regular;
+    font-size: 20px;
+    color: #fff;
+    opacity: .5
+}
+
+.catalog #myModal4 form,
+.catalog #order_cob form,
+.catalog #order_crane form,
+.catalog #order_hangar form,
+.catalog #order_roof form,
+.feedback #callback_feedback form,
+.gallery #callback_gallery form,
+.portfolio #callback_portfolio form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-top: 80px;
+    margin-left: 60px
+}
+
+.catalog #myModal4 form span,
+.catalog #order_cob form span,
+.catalog #order_crane form span,
+.catalog #order_hangar form span,
+.catalog #order_roof form span,
+.feedback #callback_feedback form span,
+.gallery #callback_gallery form span,
+.portfolio #callback_portfolio form span {
+    font-family: Merriweather_Black;
+    font-size: 20px;
+    color: #e7e7e7
+}
+
+.catalog #myModal4 form input,
+.catalog #order_cob form input,
+.catalog #order_crane form input,
+.catalog #order_hangar form input,
+.catalog #order_roof form input,
+.feedback #callback_feedback form input,
+.gallery #callback_gallery form input,
+.portfolio #callback_portfolio form input {
+    width: 80%;
+    height: 48px;
+    background-color: #555;
+    border: none;
+    font-family: PTSansCaption_Bold;
+    font-size: 20px;
+    color: #e4e4e4;
+    opacity: .4;
+    padding-left: 18px;
+    outline: 0;
+    margin: 20px 0 25px 0
+}
+
+.catalog #myModal4 form button,
+.catalog #order_cob form button,
+.catalog #order_crane form button,
+.catalog #order_hangar form button,
+.catalog #order_roof form button,
+.feedback #callback_feedback form button,
+.gallery #callback_gallery form button,
+.portfolio #callback_portfolio form button {
+    width: 80%;
+    height: 59px;
+    -webkit-clip-path: polygon(0 0, 97% 0, 100% 25%, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 97% 0, 100% 25%, 100% 100%, 0 100%);
+    background-color: #de842c;
+    border: 1px solid #ffca96;
+    font-family: Merriweather_Black;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    outline: 0;
+    cursor: pointer;
+    margin-bottom: 30px
+}
+
+.catalog #myModal5,
+.catalog #success_order_cob,
+.catalog #success_order_crane,
+.catalog #success_order_hangar,
+.catalog #success_order_roof {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 30%;
+    top: 100vh;
+    width: 580px;
+    height: 100%;
+    overflow: auto
+}
+
+.feedback #success_feedback {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 30%;
+    top: 400vh;
+    width: 580px;
+    height: 100%;
+    overflow: auto
+}
+
+.gallery #success_gallery {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 30%;
+    top: 300vh;
+    width: 580px;
+    height: 100%;
+    overflow: auto
+}
+
+.portfolio #success_portfolio {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 30%;
+    top: 200vh;
+    width: 580px;
+    height: 100%;
+    overflow: auto
+}
+
+.catalog #myModal5 .modal_bg,
+.catalog #success_order_cob .modal_bg,
+.catalog #success_order_crane .modal_bg,
+.catalog #success_order_hangar .modal_bg,
+.catalog #success_order_roof .modal_bg {
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    top: 100vh;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #b38f5e;
+    opacity: .5
+}
+
+.feedback #success_feedback .modal_bg {
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    top: 400vh;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #b38f5e;
+    opacity: .5
+}
+
+.gallery #success_gallery .modal_bg {
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    top: 300vh;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #b38f5e;
+    opacity: .5
+}
+
+.portfolio #success_portfolio .modal_bg {
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    top: 200vh;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #b38f5e;
+    opacity: .5
+}
+
+.catalog #myModal5 .modal-content,
+.catalog #success_order_cob .modal-content,
+.catalog #success_order_crane .modal-content,
+.catalog #success_order_hangar .modal-content,
+.catalog #success_order_roof .modal-content,
+.feedback #success_feedback .modal-content,
+.gallery #success_gallery .modal-content,
+.portfolio #success_portfolio .modal-content {
+    position: relative;
+    margin: 10% auto;
+    -webkit-animation-name: animatetop;
+    animation-name: animatetop;
+    -webkit-animation-duration: .4s;
+    animation-duration: .4s;
+    width: 100%;
+    height: 25%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-size: cover;
+    background-image: url(../img/success_callback_popup_bg.png);
+    position: relative
+}
+
+.catalog #myModal5 .close,
+.catalog #success_order_cob .close,
+.catalog #success_order_crane .close,
+.catalog #success_order_hangar .close,
+.catalog #success_order_roof .close,
+.feedback #success_feedback .close,
+.gallery #success_gallery .close,
+.portfolio #success_portfolio .close {
+    position: absolute;
+    top: 0;
+    right: 13px;
+    -webkit-clip-path: polygon(0 17%, 100% 0, 100% 83%, 0 100%);
+    clip-path: polygon(0 17%, 100% 0, 100% 83%, 0 100%);
+    width: 40px;
+    height: 60px;
+    background-color: #474748;
+    cursor: pointer
+}
+
+.catalog #myModal5 .close #hide_popup,
+.catalog #success_order_cob .close #hide_popup,
+.catalog #success_order_crane .close #hide_popup,
+.catalog #success_order_hangar .close #hide_popup,
+.catalog #success_order_roof .close #hide_popup,
+.feedback #success_feedback .close #hide_popup,
+.gallery #success_gallery .close #hide_popup,
+.portfolio #success_portfolio .close #hide_popup {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer
+}
+
+.catalog #myModal5 .close .close_x,
+.catalog #success_order_cob .close .close_x,
+.catalog #success_order_crane .close .close_x,
+.catalog #success_order_hangar .close .close_x,
+.catalog #success_order_roof .close .close_x,
+.feedback #success_feedback .close .close_x,
+.gallery #success_gallery .close .close_x,
+.portfolio #success_portfolio .close .close_x {
+    position: relative
+}
+
+.catalog #myModal5 .close .close_x div,
+.catalog #success_order_cob .close .close_x div,
+.catalog #success_order_crane .close .close_x div,
+.catalog #success_order_hangar .close .close_x div,
+.catalog #success_order_roof .close .close_x div,
+.feedback #success_feedback .close .close_x div,
+.gallery #success_gallery .close .close_x div,
+.portfolio #success_portfolio .close .close_x div {
+    position: absolute;
+    top: 27px;
+    left: 8px;
+    width: 20px;
+    height: 4px;
+    background-color: #fff;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+
+.catalog #myModal5 .close .close_x div:last-child,
+.catalog #success_order_cob .close .close_x div:last-child,
+.catalog #success_order_crane .close .close_x div:last-child,
+.catalog #success_order_hangar .close .close_x div:last-child,
+.catalog #success_order_roof .close .close_x div:last-child,
+.feedback #success_feedback .close .close_x div:last-child,
+.gallery #success_gallery .close .close_x div:last-child,
+.portfolio #success_portfolio .close .close_x div:last-child {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+
+.catalog #myModal5 .description,
+.catalog #success_order_cob .description,
+.catalog #success_order_crane .description,
+.catalog #success_order_hangar .description,
+.catalog #success_order_roof .description,
+.feedback #success_feedback .description,
+.gallery #success_gallery .description,
+.portfolio #success_portfolio .description {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 50px 0 0 60px
+}
+
+.catalog #myModal5 .description .h4,
+.catalog #success_order_cob .description .h4,
+.catalog #success_order_crane .description .h4,
+.catalog #success_order_hangar .description .h4,
+.catalog #success_order_roof .description .h4,
+.feedback #success_feedback .description .h4,
+.gallery #success_gallery .description .h4,
+.portfolio #success_portfolio .description .h4 {
+    font-family: Merriweather_Black;
+    font-size: 20px;
+    color: #e7e7e7;
+    text-transform: uppercase
+}
+
+.catalog #myModal5 .description div,
+.catalog #success_order_cob .description div,
+.catalog #success_order_crane .description div,
+.catalog #success_order_hangar .description div,
+.catalog #success_order_roof .description div,
+.feedback #success_feedback .description div,
+.gallery #success_gallery .description div,
+.portfolio #success_portfolio .description div {
+    font-family: PTSansCaption_Bold;
+    font-size: 20px;
+    color: #c8c8c8;
+    margin-top: 30px
+}
+
+.catalog #hangar {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 100vh;
+    width: 100%;
+    height: 100%;
+    overflow: auto
+}
+
+.catalog #hangar .modal_bg {
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    top: 100vh;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #b38f5e;
+    opacity: .5
+}
+
+.catalog #hangar .modal-content {
+    position: relative;
+    margin: 5% auto;
+    -webkit-animation-name: animatetop;
+    animation-name: animatetop;
+    -webkit-animation-duration: .4s;
+    animation-duration: .4s;
+    width: 937px;
+    height: 740px;
+    background-color: #fff;
+    position: relative
+}
+
+.catalog #hangar .close {
+    position: absolute;
+    top: -20px;
+    right: -10px;
+    -webkit-clip-path: polygon(0 17%, 100% 0, 100% 83%, 0 100%);
+    clip-path: polygon(0 17%, 100% 0, 100% 83%, 0 100%);
+    width: 40px;
+    height: 60px;
+    background-color: #474748;
+    cursor: pointer
+}
+
+.catalog #hangar .close #hide_popup {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer
+}
+
+.catalog #hangar .close .close_x {
+    position: relative
+}
+
+.catalog #hangar .close .close_x div {
+    position: absolute;
+    top: 27px;
+    left: 8px;
+    width: 20px;
+    height: 4px;
+    background-color: #fff;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+
+.catalog #hangar .close .close_x div:last-child {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+
+.catalog #hangar .title {
+    width: 100%;
+    height: 80px;
+    background-color: #000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: Merriweather_Black;
+    font-size: 26px;
+    color: #fff
+}
+
+.catalog #hangar .favor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding: 30px 25px 0 60px
+}
+
+.catalog #hangar .favor .service {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 60px
+}
+
+.catalog #hangar .favor .service img {
+    margin-bottom: 40px
+}
+
+.catalog #hangar .favor #eleme {
+    height: 600px
+}
+
+.catalog #hangar .favor #eleme div p {
+    margin-bottom: 35px;
+    font-family: PTSansCaption_Regular;
+    font-size: 16px;
+    color: #000
+}
+
+.catalog #hangar .service button {
+    width: 100%;
+    height: 40px;
+    -webkit-clip-path: polygon(0 0, 97% 0, 100% 25%, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 97% 0, 100% 25%, 100% 100%, 0 100%);
+    background-color: #de842c;
+    border: 1px solid #ffca96;
+    font-family: Merriweather_Black;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    outline: 0;
+    cursor: pointer;
+    margin-bottom: 30px
+}
+
+.catalog #cob {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 100vh;
+    width: 100%;
+    height: 100%;
+    overflow: auto
+}
+
+.catalog #cob .modal_bg {
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    top: 100vh;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #b38f5e;
+    opacity: .5
+}
+
+.catalog #cob .modal-content {
+    position: relative;
+    margin: 5% auto;
+    -webkit-animation-name: animatetop;
+    animation-name: animatetop;
+    -webkit-animation-duration: .4s;
+    animation-duration: .4s;
+    width: 937px;
+    height: 740px;
+    background-color: #fff;
+    position: relative
+}
+
+.catalog #cob .close {
+    position: absolute;
+    top: -20px;
+    right: -10px;
+    -webkit-clip-path: polygon(0 17%, 100% 0, 100% 83%, 0 100%);
+    clip-path: polygon(0 17%, 100% 0, 100% 83%, 0 100%);
+    width: 40px;
+    height: 60px;
+    background-color: #474748;
+    cursor: pointer
+}
+
+.catalog #cob .close #hide_popup {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer
+}
+
+.catalog #cob .close .close_x {
+    position: relative
+}
+
+.catalog #cob .close .close_x div {
+    position: absolute;
+    top: 27px;
+    left: 8px;
+    width: 20px;
+    height: 4px;
+    background-color: #fff;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+
+.catalog #cob .close .close_x div:last-child {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+
+.catalog #cob .title {
+    width: 100%;
+    height: 80px;
+    background-color: #000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: Merriweather_Black;
+    font-size: 26px;
+    color: #fff
+}
+
+.catalog #cob .favor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding: 30px 25px 0 60px
+}
+
+.catalog #cob .favor .service {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 60px;
+    width: 205px
+}
+
+.catalog #cob .favor .service img {
+    margin-bottom: 40px
+}
+
+.catalog #cob .favor #element {
+    height: 600px
+}
+
+.catalog #cob .favor #element div p {
+    margin-bottom: 35px;
+    font-family: PTSansCaption_Regular;
+    font-size: 16px;
+    color: #000
+}
+
+.catalog #cob .service button {
+    width: 100%;
+    height: 40px;
+    -webkit-clip-path: polygon(0 0, 97% 0, 100% 25%, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 97% 0, 100% 25%, 100% 100%, 0 100%);
+    background-color: #de842c;
+    border: 1px solid #ffca96;
+    font-family: Merriweather_Black;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    outline: 0;
+    cursor: pointer;
+    margin-bottom: 30px
+}
+
+.catalog #roof {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 100vh;
+    width: 100%;
+    height: 100%;
+    overflow: auto
+}
+
+.catalog #roof .modal_bg {
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    top: 100vh;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #b38f5e;
+    opacity: .5
+}
+
+.catalog #roof .modal-content {
+    position: relative;
+    margin: 5% auto;
+    -webkit-animation-name: animatetop;
+    animation-name: animatetop;
+    -webkit-animation-duration: .4s;
+    animation-duration: .4s;
+    width: 937px;
+    height: 740px;
+    background-color: #fff;
+    position: relative
+}
+
+.catalog #roof .close {
+    position: absolute;
+    top: -20px;
+    right: -10px;
+    -webkit-clip-path: polygon(0 17%, 100% 0, 100% 83%, 0 100%);
+    clip-path: polygon(0 17%, 100% 0, 100% 83%, 0 100%);
+    width: 40px;
+    height: 60px;
+    background-color: #474748;
+    cursor: pointer
+}
+
+.catalog #roof .close #hide_popup {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer
+}
+
+.catalog #roof .close .close_x {
+    position: relative
+}
+
+.catalog #roof .close .close_x div {
+    position: absolute;
+    top: 27px;
+    left: 8px;
+    width: 20px;
+    height: 4px;
+    background-color: #fff;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+
+.catalog #roof .close .close_x div:last-child {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+
+.catalog #roof .title {
+    width: 100%;
+    height: 80px;
+    background-color: #000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: Merriweather_Black;
+    font-size: 26px;
+    color: #fff
+}
+
+.catalog #roof .favor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding: 30px 25px 0 60px
+}
+
+.catalog #roof .favor .service {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 60px;
+    width: 205px
+}
+
+.catalog #roof .favor .service img {
+    margin-bottom: 40px
+}
+
+.catalog #roof .favor #elements {
+    height: 600px
+}
+
+.catalog #roof .favor #elements div p {
+    margin-bottom: 35px;
+    font-family: PTSansCaption_Regular;
+    font-size: 16px;
+    color: #000
+}
+
+.catalog #roof .service button {
+    width: 100%;
+    height: 40px;
+    -webkit-clip-path: polygon(0 0, 97% 0, 100% 25%, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 97% 0, 100% 25%, 100% 100%, 0 100%);
+    background-color: #de842c;
+    border: 1px solid #ffca96;
+    font-family: Merriweather_Black;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    outline: 0;
+    cursor: pointer;
+    margin-bottom: 30px
+}
+
+.catalog #crane {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 100vh;
+    width: 100%;
+    height: 100%;
+    overflow: auto
+}
+
+.catalog #crane .modal_bg {
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    top: 100vh;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #b38f5e;
+    opacity: .5
+}
+
+.catalog #crane .modal-content {
+    position: relative;
+    margin: 5% auto;
+    -webkit-animation-name: animatetop;
+    animation-name: animatetop;
+    -webkit-animation-duration: .4s;
+    animation-duration: .4s;
+    width: 937px;
+    height: 740px;
+    background-color: #fff;
+    position: relative
+}
+
+.catalog #crane .close {
+    position: absolute;
+    top: -20px;
+    right: -10px;
+    -webkit-clip-path: polygon(0 17%, 100% 0, 100% 83%, 0 100%);
+    clip-path: polygon(0 17%, 100% 0, 100% 83%, 0 100%);
+    width: 40px;
+    height: 60px;
+    background-color: #474748;
+    cursor: pointer
+}
+
+.catalog #crane .close #hide_popup {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer
+}
+
+.catalog #crane .close .close_x {
+    position: relative
+}
+
+.catalog #crane .close .close_x div {
+    position: absolute;
+    top: 27px;
+    left: 8px;
+    width: 20px;
+    height: 4px;
+    background-color: #fff;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+
+.catalog #crane .close .close_x div:last-child {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+
+.catalog #crane .title {
+    width: 100%;
+    height: 80px;
+    background-color: #000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: Merriweather_Black;
+    font-size: 26px;
+    color: #fff
+}
+
+.catalog #crane .favor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding: 30px 25px 0 60px
+}
+
+.catalog #crane .favor .service {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 60px;
+    width: 205px
+}
+
+.catalog #crane .favor .service img {
+    margin-bottom: 40px
+}
+
+.catalog #crane .favor #elemen {
+    height: 600px
+}
+
+.catalog #crane .favor #elemen div p {
+    margin-bottom: 35px;
+    font-family: PTSansCaption_Regular;
+    font-size: 16px;
+    color: #000
+}
+
+.catalog #crane .service button {
+    width: 100%;
+    height: 40px;
+    -webkit-clip-path: polygon(0 0, 97% 0, 100% 25%, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 97% 0, 100% 25%, 100% 100%, 0 100%);
+    background-color: #de842c;
+    border: 1px solid #ffca96;
+    font-family: Merriweather_Black;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    outline: 0;
+    cursor: pointer;
+    margin-bottom: 30px
+}
+
+.portfolio #portfolio_popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 200vh;
+    width: 100%;
+    height: 100%;
+    overflow: hidden
+}
+
+.portfolio #portfolio_popup .modal_bg {
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    top: 200vh;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #b38f5e;
+    opacity: .5
+}
+
+.portfolio #portfolio_popup .modal-content {
+    -webkit-animation-name: animatetop;
+    animation-name: animatetop;
+    -webkit-animation-duration: .4s;
+    animation-duration: .4s;
+    width: 73%;
+    height: 77%;
+    margin: 7% auto;
+    background-color: #fff;
+    position: relative
+}
+
+.portfolio #portfolio_popup .close {
+    position: absolute;
+    top: -20px;
+    right: -10px;
+    -webkit-clip-path: polygon(0 17%, 100% 0, 100% 83%, 0 100%);
+    clip-path: polygon(0 17%, 100% 0, 100% 83%, 0 100%);
+    width: 40px;
+    height: 60px;
+    background-color: #474748;
+    cursor: pointer
+}
+
+.portfolio #portfolio_popup .close #hide_popup {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer
+}
+
+.portfolio #portfolio_popup .close .close_x {
+    position: relative
+}
+
+.portfolio #portfolio_popup .close .close_x div {
+    position: absolute;
+    top: 27px;
+    left: 8px;
+    width: 20px;
+    height: 4px;
+    background-color: #fff;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+
+.portfolio #portfolio_popup .close .close_x div:last-child {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+
+.portfolio #portfolio_popup .title {
+    width: 100%;
+    height: 80px;
+    background-color: #000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: Merriweather_Black;
+    font-size: 26px;
+    color: #fff
+}
+
+.portfolio #portfolio_popup .favor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    text-align: flex-start;
+    padding: 30px 25px
+}
+
+.portfolio #portfolio_popup .favor img {
+    width: 55%;
+    height: 570px;
+    margin-right: 25px
+}
+
+.portfolio #portfolio_popup .favor #scroll_portfolio {
+    height: 570px
+}
+
+.portfolio #portfolio_popup .favor #scroll_portfolio_page2 {
+    height: 570px
+}
+
+.portfolio #portfolio_popup .favor #scroll_portfolio_page3 {
+    height: 570px
+}
+
+.portfolio #portfolio_popup .favor #scroll_portfolio div p {
+    font-family: PTSansCaption_Regular;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 20px
+}
+
+.portfolio .slider {
+    position: relative;
+    margin: auto;
+    height: auto;
+    margin-bottom: 15px
+}
+
+.portfolio .slider .item img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important
+}
+
+.portfolio .slider .next,
+.portfolio .slider .prev {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: 50px;
+    height: 90px;
+    color: #000;
+    background-color: #fff;
+    opacity: .4;
+    font-weight: 700;
+    font-size: 30px;
+    -webkit-transition: .6s ease;
+    -o-transition: .6s ease;
+    transition: .6s ease;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.portfolio .slider .prev {
+    left: 10%
+}
+
+.portfolio .slider .next {
+    right: 10%
+}
+
+.portfolio .slider .next:hover,
+.portfolio .slider .prev:hover {
+    -webkit-transition: .6s ease;
+    -o-transition: .6s ease;
+    transition: .6s ease;
+    opacity: .6
+}
+
+.portfolio .slider .item {
+    -webkit-animation-name: fade;
+    animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.gallery #gallery_popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 300vh;
+    width: 100%;
+    height: 100%;
+    overflow: hidden
+}
+
+.gallery #gallery_popup .modal_bg {
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    top: 300vh;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #b38f5e;
+    opacity: .5
+}
+
+.gallery #gallery_popup .cont {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.gallery #gallery_popup .cont .modal-content {
+    -webkit-animation-name: animatetop;
+    animation-name: animatetop;
+    -webkit-animation-duration: .4s;
+    animation-duration: .4s;
+    width: 95%;
+    height: 77%;
+    position: relative
+}
+
+.gallery #gallery_popup .close {
+    position: absolute;
+    top: -20px;
+    right: -10px;
+    z-index: 11;
+    -webkit-clip-path: polygon(0 17%, 100% 0, 100% 83%, 0 100%);
+    clip-path: polygon(0 17%, 100% 0, 100% 83%, 0 100%);
+    width: 40px;
+    height: 60px;
+    background-color: #474748;
+    cursor: pointer
+}
+
+.gallery #gallery_popup .close #hide_popup {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer
+}
+
+.gallery #gallery_popup .close .close_x {
+    position: relative
+}
+
+.gallery #gallery_popup .close .close_x div {
+    position: absolute;
+    top: 27px;
+    left: 8px;
+    width: 20px;
+    height: 4px;
+    background-color: #fff;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+
+.gallery #gallery_popup .close .close_x div:last-child {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+
+.slide--parent {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+.slide--parent:hover {
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    width: 99%
+}
+
+.parent--el {
+    width: 90%;
+    left: 105%;
+    top: 6%
+}
+
+.parent--el .two--col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+figure {
+    margin: 0
+}
+
+.is-item {
+    width: 60%
+}
+
+.is-item.has--img {
+    width: 100%
+}
+
+.the-img {
+    width: 100%;
+    position: relative;
+    overflow: hidden
+}
+
+.the-img img {
+    width: 100%
+}
+
+.the-img {
+    overflow: hidden
+}
+
+.the-img img {
+    position: relative;
+    -webkit-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease
+}
+
+.parent--el.is-selected .the-img {
+    overflow: hidden
+}
+
+.parent--el.is-selected .the-img img {
+    position: relative;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition-delay: 1s;
+    -o-transition-delay: 1s;
+    transition-delay: 1s
+}
+
+.slide--parent .parent--el .two--col .is-item.has--img .circle {
+    width: 20%;
+    height: 32%;
+    background-color: #f59e29;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    left: 42%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    -webkit-box-shadow: 0 0 500px 40px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 500px 40px rgba(0, 0, 0, .5)
+}
+
+.slide--parent .parent--el .two--col .is-item.has--img .circle:hover {
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    -webkit-box-shadow: 0 0 1000px 100px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 1000px 100px rgba(0, 0, 0, .5)
+}
+
+.slide--parent .parent--el .two--col .is-item.has--img .circle .triangle {
+    width: 50%;
+    height: 50%;
+    background-color: #332c24;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 50%);
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    margin-left: 20px
+}
+
+.flickity-prev-next-button {
+    width: 50px;
+    height: 90px;
+    border-radius: 0;
+    opacity: .4;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+.flickity-prev-next-button:hover {
+    opacity: .6;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+.flickity-viewport {
+    height: 100%
+}
+
+@media screen and (max-width:1700px) {
+    .about_us #myModal1 form button {
+        margin-top: 20px
+    }
+
+    .about_us #myModal1 form .email,
+    .about_us #myModal1 form .phone {
+        margin-bottom: 20px
+    }
+
+    .catalog #cob .modal-content,
+    .catalog #crane .modal-content,
+    .catalog #hangar .modal-content,
+    .catalog #roof .modal-content {
+        margin: 4% auto
+    }
+}
+
+@media screen and (max-width:1601px) {
+    .about_us #myModal1 .modal-content {
+        height: 80%
+    }
+
+    .about_us #myModal2 form {
+        padding-top: 35px
+    }
+
+    .catalog #myModal4 form,
+    .catalog #order_cob form,
+    .catalog #order_crane form,
+    .catalog #order_hangar form,
+    .catalog #order_roof form,
+    .feedback #callback_feedback form,
+    .gallery #callback_gallery form,
+    .portfolio #callback_portfolio form {
+        padding-top: 35px
+    }
+}
+
+@media screen and (max-width:1601px) {
+
+    .catalog #cob .modal-content,
+    .catalog #crane .modal-content,
+    .catalog #hangar .modal-content,
+    .catalog #roof .modal-content {
+        height: 590px
+    }
+
+    .catalog #cob .favor #element,
+    .catalog #crane .favor #elemen,
+    .catalog #hangar .favor #eleme,
+    .catalog #roof .favor #elements {
+        height: 475px
+    }
+
+    .portfolio #portfolio_popup .modal-content {
+        margin: 2% auto
+    }
+}
+
+@media screen and (max-width:1380px) {
+    .feedback .feedmessage form textarea {
+        margin: 5px 0 10px 0;
+        height: 50px
+    }
+
+    .about_us #myModal1 .modal-content {
+        height: 75%
+    }
+
+    .about_us #myModal3 .description,
+    .catalog #myModal5 .description,
+    .catalog #success_order_cob .description,
+    .catalog #success_order_crane .description,
+    .catalog #success_order_hangar .description,
+    .catalog #success_order_roof .description,
+    .feedback #success_feedback .description,
+    .gallery #success_gallery .description,
+    .portfolio #success_portfolio .description {
+        padding: 20px 0 0 60px
+    }
+
+    .about_us #myModal2 .modal-content,
+    .catalog #myModal4 .modal-content,
+    .catalog #order_cob .modal-content,
+    .catalog #order_crane .modal-content,
+    .catalog #order_hangar .modal-content,
+    .catalog #order_roof .modal-content,
+    .feedback #callback_feedback .modal-content,
+    .gallery #callback_gallery .modal-content,
+    .portfolio #callback_portfolio .modal-content {
+        height: 61%
+    }
+
+    .catalog #cob .modal-content,
+    .catalog #crane .modal-content,
+    .catalog #hangar .modal-content,
+    .catalog #roof .modal-content {
+        height: 510px
+    }
+
+    .catalog #cob .favor #element,
+    .catalog #crane .favor #elemen,
+    .catalog #hangar .favor #eleme,
+    .catalog #roof .favor #elements {
+        height: 380px
+    }
+
+    .about_us #myModal1 form {
+        margin: 10px 5%
+    }
+
+    .about_us #myModal1 form textarea {
+        margin-top: 10px
+    }
+
+    .about_us #myModal1 form .email input,
+    .about_us #myModal1 form .phone input {
+        margin-top: 10px
+    }
+
+    .about_us #myModal1 form textarea {
+        height: 130px
+    }
+
+    .about_us #myModal1 form button {
+        width: 100%;
+        height: 40px
+    }
+
+    .about_us #myModal1 {
+        left: 20%
+    }
+
+    .about_us #myModal2,
+    .about_us #myModal3 {
+        left: 20%
+    }
+
+    .catalog #myModal4,
+    .catalog #myModal5,
+    .catalog #order_cob,
+    .catalog #order_crane,
+    .catalog #order_hangar,
+    .catalog #order_roof,
+    .catalog #success_order_cob,
+    .catalog #success_order_crane,
+    .catalog #success_order_hangar,
+    .catalog #success_order_roof {
+        left: 20%
+    }
+}
+
+@media screen and (max-width:1281px) {
+
+    .catalog #cob .modal-content,
+    .catalog #crane .modal-content,
+    .catalog #hangar .modal-content,
+    .catalog #roof .modal-content {
+        margin: 1% auto
+    }
+}
+
+@media screen and (max-width:1200px) {
+
+    .about_us #myModal2,
+    .about_us #myModal3,
+    .feedback #callback_feedback,
+    .gallery #callback_gallery {
+        left: 20%
+    }
+
+    .portfolio #callback_portfolio {
+        left: 15%
+    }
+
+    .catalog #myModal4,
+    .catalog #myModal5,
+    .catalog #order_cob,
+    .catalog #order_crane,
+    .catalog #order_hangar,
+    .catalog #order_roof,
+    .catalog #success_order_cob,
+    .catalog #success_order_crane,
+    .catalog #success_order_hangar,
+    .catalog #success_order_roof {
+        left: 10%
+    }
+
+    .about_us #myModal1 form .desc span {
+        font-size: 16px
+    }
+
+    .about_us #myModal1 form .desc div {
+        font-size: 14px
+    }
+
+    .about_us #myModal1 form .email input,
+    .about_us #myModal1 form .phone input {
+        font-size: 16px
+    }
+
+    .about_us #myModal1 form span {
+        font-size: 16px
+    }
+
+    .about_us #myModal1 form textarea {
+        font-size: 16px
+    }
+
+    .about_us #myModal1 form button {
+        font-size: 16px
+    }
+
+    .about_us #myModal1 .title {
+        font-size: 20px
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .portfolio #portfolio_popup .modal-content {
+        width: 100%
+    }
+
+    .portfolio #portfolio_popup .favor {
+        padding: 30px 50px
+    }
+
+    .portfolio #portfolio_popup .title {
+        font-size: 18px
+    }
+
+    .slider .next {
+        right: 0;
+        top: 40%;
+        background-color: #a5a5a4
+    }
+
+    .slider .prev {
+        left: 0;
+        top: 40%;
+        background-color: #a5a5a4
+    }
+
+    .catalog #cob .close,
+    .catalog #crane .close,
+    .catalog #hangar .close,
+    .catalog #roof .close {
+        right: 0
+    }
+
+    .catalog #cob .favor,
+    .catalog #crane .favor,
+    .catalog #hangar .favor,
+    .catalog #roof .favor {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: 30px 25px 0 25px;
+        margin-right: 0
+    }
+
+    .catalog #cob .favor #element div p,
+    .catalog #crane .favor #elemen div p,
+    .catalog #hangar .favor #eleme div p,
+    .catalog #roof .favor #elements div p {
+        font-size: 16px
+    }
+
+    .catalog #cob .service button,
+    .catalog #crane .service button,
+    .catalog #hangar .service button,
+    .catalog #roof .service button {
+        margin-bottom: 15px;
+        font-size: 16px
+    }
+
+    .catalog #cob .service img {
+        width: 75px;
+        height: 130px
+    }
+
+    .catalog #crane .favor .service img,
+    .catalog #hangar .service img,
+    .catalog #roof .service img {
+        width: 130px;
+        margin-bottom: 20px
+    }
+
+    .catalog #cob .title,
+    .catalog #crane .title,
+    .catalog #hangar .title,
+    .catalog #roof .title {
+        font-size: 14px
+    }
+
+    .catalog #cob .favor #element,
+    .catalog #crane .favor #elemen,
+    .catalog #hangar .favor #eleme,
+    .catalog #roof .favor #elements {
+        height: 180px
+    }
+
+    .catalog #cob .modal-content,
+    .catalog #crane .modal-content,
+    .catalog #hangar .modal-content,
+    .catalog #roof .modal-content {
+        margin: 8% auto;
+        width: 100%
+    }
+
+    .about_us #myModal1 {
+        width: 100%
+    }
+
+    .about_us #myModal2 {
+        width: 100%
+    }
+
+    .catalog #myModal2 {
+        width: 100%
+    }
+
+    .about_us #myModal1 {
+        left: 0
+    }
+
+    .about_us #myModal2 {
+        left: 0
+    }
+
+    .catalog #myModal4,
+    .catalog #order_cob,
+    .catalog #order_crane,
+    .catalog #order_hangar,
+    .catalog #order_roof {
+        left: 0
+    }
+
+    .portfolio .slider .next,
+    .portfolio .slider .prev {
+        width: 13px;
+        height: 23px;
+        background-color: #a5a5a4;
+        font-size: 20px
+    }
+
+    .portfolio .slider .prev {
+        left: 0
+    }
+
+    .portfolio .slider .next {
+        right: 0
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    .slider .next,
+    .slider .prev {
+        width: 13px;
+        height: 26px;
+        font-size: 18px;
+        padding-top: 0
+    }
+
+    .portfolio #portfolio_popup .favor {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+
+    .portfolio #portfolio_popup .favor img {
+        width: 270px;
+        height: 260px;
+        margin: 15px auto
+    }
+
+    .portfolio #portfolio_popup .favor #scroll_portfolio {
+        height: 140px
+    }
+
+    .portfolio #portfolio_popup .favor #scroll_portfolio_page2 {
+        height: 140px
+    }
+
+    .portfolio #portfolio_popup .favor #scroll_portfolio_page3 {
+        height: 140px
+    }
+
+    .portfolio #portfolio_popup .title {
+        font-size: 14px
+    }
+
+    .portfolio #portfolio_popup .favor #scroll_portfolio div p {
+        font-family: PTSansCaption_Regular;
+        font-size: 12px
+    }
+}
+
+@media screen and (max-width:650px) {
+    .about_us #myModal3 {
+        left: 0
+    }
+
+    .catalog #myModal5,
+    .catalog #success_order_cob,
+    .catalog #success_order_crane,
+    .catalog #success_order_hangar,
+    .catalog #success_order_roof {
+        left: 0
+    }
+}
+
+@media screen and (max-width:600px) {
+    .portfolio #portfolio_popup .favor {
+        padding: 10px 15px
+    }
+
+    .about_us #myModal3 {
+        width: 100%
+    }
+
+    .catalog #myModal5,
+    .catalog #success_order_cob,
+    .catalog #success_order_crane,
+    .catalog #success_order_hangar,
+    .catalog #success_order_roof {
+        width: 100%
+    }
+
+    .about_us #myModal1 .title {
+        width: 100%;
+        height: 50px
+    }
+
+    .about_us #myModal1 .close {
+        top: -20px;
+        right: 0
+    }
+
+    .about_us #myModal2 form,
+    .catalog #myModal4 form,
+    .catalog #order_cob form,
+    .catalog #order_crane form,
+    .catalog #order_hangar form,
+    .catalog #order_roof form {
+        margin-left: 10px
+    }
+
+    .about_us #myModal2 form span,
+    .catalog #myModal4 form span,
+    .catalog #order_cob form span,
+    .catalog #order_crane form span,
+    .catalog #order_hangar form span,
+    .catalog #order_roof form span {
+        font-size: 14px
+    }
+
+    .about_us #myModal2 form input,
+    .catalog #myModal4 form input,
+    .catalog #order_cob form input,
+    .catalog #order_crane form input,
+    .catalog #order_hangar form input,
+    .catalog #order_roof form input {
+        width: 90%;
+        font-size: 14px
+    }
+
+    .about_us #myModal2 form button,
+    .catalog #myModal4 form button,
+    .catalog #order_cob form button,
+    .catalog #order_crane form button,
+    .catalog #order_hangar form button,
+    .catalog #order_roof form button {
+        width: 90%;
+        font-size: 14px
+    }
+
+    .about_us #myModal2 .social,
+    .catalog #myModal4 .social,
+    .catalog #order_cob .social,
+    .catalog #order_crane .social,
+    .catalog #order_hangar .social,
+    .catalog #order_roof .social {
+        margin-left: 10px
+    }
+
+    .about_us #myModal2 .social span,
+    .catalog #myModal4 .social span,
+    .catalog #order_cob .social span,
+    .catalog #order_crane .social span,
+    .catalog #order_hangar .social span,
+    .catalog #order_roof .social span {
+        font-size: 14px
+    }
+}
+
+@media screen and (max-width:430px) {
+    .about_us #myModal1 .close {
+        right: 0
+    }
+
+    .about_us #myModal3 .description,
+    .catalog #myModal5 .description,
+    .catalog #success_order_cob .description,
+    .catalog #success_order_crane .description,
+    .catalog #success_order_hangar .description,
+    .catalog #success_order_roof .description {
+        padding-left: 30px
+    }
+
+    .about_us #myModal3 .description .h4,
+    .catalog #myModal5 .description .h4,
+    .catalog #success_order_cob .description .h4,
+    .catalog #success_order_crane .description .h4,
+    .catalog #success_order_hangar .description .h4,
+    .catalog #success_order_roof .description .h4 {
+        font-size: 14px
+    }
+
+    .about_us #myModal3 .description div,
+    .catalog #myModal5 .description div,
+    .catalog #success_order_cob .description div,
+    .catalog #success_order_crane .description div,
+    .catalog #success_order_hangar .description div,
+    .catalog #success_order_roof .description div {
+        font-size: 14px
+    }
+}
+
+@media screen and (max-width:400px) {
+    .about_us #myModal1 form .desc span {
+        font-size: 14px
+    }
+
+    .about_us #myModal1 form .desc div {
+        font-size: 12px
+    }
+
+    .about_us #myModal1 form .email input,
+    .about_us #myModal1 form .phone input {
+        font-size: 14px
+    }
+
+    .about_us #myModal1 form span {
+        font-size: 14px
+    }
+
+    .about_us #myModal1 form textarea {
+        font-size: 14px
+    }
+
+    .about_us #myModal1 form button {
+        font-size: 14px
+    }
+
+    .about_us #myModal1 .title {
+        font-size: 16px
+    }
+
+    .about_us #myModal3 .description,
+    .catalog #myModal5 .description,
+    .catalog #success_order_cob .description,
+    .catalog #success_order_crane .description,
+    .catalog #success_order_hangar .description,
+    .catalog #success_order_roof .description {
+        padding-left: 15px
+    }
+}
+
+@media screen and (max-height:570px) {
+    .about_us #myModal3 .description {
+        padding: 10px 0 0 5px
+    }
+}
+
+@media screen and (max-height:620px) {
+    .about_us #myModal1 form {
+        margin: 5px 5%
+    }
+
+    .about_us #myModal1 form .email,
+    .about_us #myModal1 form .phone {
+        margin-bottom: 10px
+    }
+
+    .about_us #myModal1 form button {
+        margin-top: 10px
+    }
+
+    .about_us #myModal1 form textarea {
+        height: 100px
+    }
+}
